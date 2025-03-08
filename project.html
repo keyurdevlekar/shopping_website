@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KD KICKS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">KD KICKS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Product Cards -->
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://kingwalk.com/wp-content/uploads/2021/04/Jordan-1-Low-Travis-Scott-2.jpg" class="card-img-top" alt="Nike Travis Scott">
+                    <div class="card-body text-center">
+                        <h5>Nike Travis Scott</h5>
+                        <a href="product1.html" class="btn btn-primary" target="_blank">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://justfreshkicks.com/wp-content/uploads/2022/09/new-balance-550-cream-blue-release-date.jpeg" class="card-img-top" alt="New Balance 550">
+                    <div class="card-body text-center">
+                        <h5>New Balance 550</h5>
+                        <a href="product2.html" class="btn btn-primary" target="_blank">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://assets.adidas.com/images/w_1880,f_auto,q_auto/b0b6d4a107ad4e84b3baaf8700866f07_9366/H03472_01_standard.jpg" class="card-img-top" alt="Adidas Campus">
+                    <div class="card-body text-center">
+                        <h5>Adidas Campus</h5>
+                        <a href="product3.html" class="btn btn-primary" target="_blank">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide mt-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://freepnglogo.com/images/all_img/1729249154_nike-logo-text-name.png" class="d-block w-100" alt="Nike Logo">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.pngmart.com/files/23/New-Balance-Logo-PNG-Photo.png" class="d-block w-100" alt="New Balance Logo">
+            </div>
+            <div class="carousel-item">
+                <img src="https://pngimg.com/uploads/adidas/adidas_PNG8.png" class="d-block w-100" alt="Adidas Logo">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container mt-5 pt-5" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" class="form-control mb-3" placeholder="Name" required>
+            <input type="email" class="form-control mb-3" placeholder="Email" required>
+            <textarea class="form-control mb-3" placeholder="Message" rows="3" required></textarea>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content shadow-lg rounded-4">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Contact Details</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p><strong>Phone:</strong> +91 8888899999</p>
+                    <p><strong>Email:</strong> contact@kdkicks.com</p>
+                    <p><strong>Instagram:</strong> @kdkicks</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 KD KICKS | Contact: contact@kdkicks.com | Phone: +91 8888899999</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

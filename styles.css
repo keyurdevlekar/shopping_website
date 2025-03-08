@@ -1,0 +1,36 @@
+/* Background Image */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://image.freepik.com/free-photo/woman-sport-shoes-close-up-bright-background_151851-867.jpg'); /* Replace with actual image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* Carousel */
+.carousel-inner img {
+    height: 400px;
+    object-fit: contain;
+}
+
+/* Product Cards */
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+}
