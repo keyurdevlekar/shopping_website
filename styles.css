@@ -19,6 +19,9 @@ body {
     height: 400px;
     object-fit: contain;
 }
+.carousel-indicators {
+    display: none;
+}
 
 /* Product Cards */
 .card img {
